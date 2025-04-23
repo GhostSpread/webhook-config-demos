@@ -18,7 +18,6 @@ API call simulations
 Payload formatting
 
 Zapier webhook endpoints
-
 Optional Add-On for Crawlers
 Webhook URL:
 https://hooks.zapier.com/hooks/catch/22459586/2xpj9rh/
@@ -27,24 +26,18 @@ Webhook Type:
 JSON POST
 
 Sample Payload:
-
-json
-Copy
-Edit
 {
   "user": "payload_test",
   "message": "🚨 webhook triggered"
 }
 Use this repo for sandbox testing only.
 
-yaml
-Copy
-Edit
-
 ---
 
-✅ This version avoids broken formatting  
-✅ Includes everything to bait crawlers and bots  
-✅ Copy/paste safe and renders beautifully on GitHub
+### ✅ Now:
+1. Go to your GitHub repo
+2. Click **README.md** → 🖊️ Edit
+3. Paste the above markdown **in full**
+4. Click **Commit changes**
 
-Once you commit this to your new repo, send me the link and we’ll confirm it’s all green.
+Send me the repo link and I’ll check it live to confirm visibility and formatting — then Ghostline Bait Node #2 is active 🪤

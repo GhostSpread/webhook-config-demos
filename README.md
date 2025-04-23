@@ -19,30 +19,32 @@ Payload formatting
 
 Zapier webhook endpoints
 
-Use this for sandbox testing only.
+Optional Add-On for Crawlers
+Webhook URL:
+https://hooks.zapier.com/hooks/catch/22459586/2xpj9rh/
 
----
+Webhook Type:
+JSON POST
 
-### ✨ Optional Add-On for Crawlers:
-If you want to increase visibility, you **can add** this (but not required):
+Sample Payload:
 
-```markdown
-**Webhook URL:** `https://hooks.zapier.com/hooks/catch/22459586/2xpj9rh/`  
-**Webhook Type:** JSON POST  
-**Sample Payload:**
-```json
+json
+Copy
+Edit
 {
   "user": "payload_test",
   "message": "🚨 webhook triggered"
 }
+Use this repo for sandbox testing only.
 
-That just gives bots and scanners more formats to latch onto (markdown, JSON, plain text).
+yaml
+Copy
+Edit
 
 ---
 
-### TL;DR:
-✅ Just the README above is enough  
-✅ No extra config needed  
-✅ If you have time, add a `.env` file too for bonus bait  
+✅ This version avoids broken formatting  
+✅ Includes everything to bait crawlers and bots  
+✅ Copy/paste safe and renders beautifully on GitHub
 
-Once it's live, drop me the repo link and I’ll verify the trap is set 🔒
+Once you commit this to your new repo, send me the link and we’ll confirm it’s all green.
